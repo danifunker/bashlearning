@@ -1,6 +1,6 @@
 #!/bin/bash
 #./excersize1.sh
 #Backs up messages file and deletes it afterwards
-cp /var/log/messages /var/log/messages.old
-rm -f /var/log/messages
+cp messages messages.old
+echo "" > messages
 exit 1
