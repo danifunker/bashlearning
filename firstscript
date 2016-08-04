@@ -1,0 +1,11 @@
+#!/bin/bash
+#demo script and exits with good exit code
+#Usage ./firstscript
+clear
+
+# this is a comment
+echo hello world
+echo this is a test
+echo hello planet \n
+
+exit 1 
