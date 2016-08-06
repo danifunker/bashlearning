@@ -3,7 +3,7 @@ echo 'Select a directory: '
 select DIR in /bin /usr /etc
 do
 	#only continue if user has selected something
-	if [ -n $dir ]
+	if [ -n $DIR ]
 	then
 		DIR=$DIR
 		echo you have selected $DIR
