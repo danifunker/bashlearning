@@ -1,0 +1,3 @@
+cn=lara,dc=example,dc=com
+cn=jane,dc=example,dc=com
+cn=mary,dc=example,dc=com
