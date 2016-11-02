@@ -2,8 +2,9 @@
 # main function of the program, loop for each file that isn't the dir name
 copy_files()
 {
-DESTFOLDER=$1
-	for file in $@; do
+	DESTFOLDER=$1
+	#for file in "$@"; do
+	for file do
 		if [ "$file" != $DESTFOLDER ]; then
 			mv "$file" $DESTFOLDER
 		fi
