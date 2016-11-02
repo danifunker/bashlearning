@@ -11,7 +11,7 @@ DESTFOLDER=$1
 
 # Ensure run syntax is good
 if [ $# -lt 2 ]; then 
-	echo "usage: $0 foldername file1 ..."
+	echo "usage: $0 FOLDERNAME FILE ..."
 
 else
 	# check if folder exists, if not create it; catch if the folder is a file
