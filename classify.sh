@@ -1,6 +1,7 @@
 #!/bin/bash
 # main function of the program, loop for each file that isn't the dir name
-function copy_files(){
+function copy_files()
+{
 DESTFOLDER=$1
 	for file in $@; do
 		if [ "$file" != $DESTFOLDER ]; then
